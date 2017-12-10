@@ -1,0 +1,70 @@
+h3{
+    font-size: 20px;
+    font-family:Verdana;
+    color: #515151;
+}
+
+h2{
+    font-family:Verdana;
+    color: #515151;
+}
+img {
+     width: 30%;
+	  max-height: 200px;
+	}
+
+.carousel-inner {
+      background-color:#6a7a45;
+	  max-height: 200px;
+}
+    .carousel{
+
+		width:100%;
+
+	}
+.carousel-caption {
+      font-size: 2em;
+      right: 10%;
+      left: 60%;
+      top: 0%;
+      bottom: 0%;
+      text-align: left;
+      text-shadow: none;
+     }
+.carousel-indicators{
+      font-size: 2em;
+      bottom: -1%;
+      text-align: left;
+      text-shadow: none;
+        }
+
+/***
+ * Bootstrap relies on CSS transitions for animation, which makes it
+ * easy to override.  Just add the vertical class to your carousel:
+ *
+ ***/
+
+.carousel.vertical .carousel-inner {
+  
+}
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+  -moz-transition:    0.6s ease-in-out top;
+  -ms-transition:     0.6s ease-in-out top;
+  -o-transition:      0.6s ease-in-out top;
+  left:               0;
+}
+.carousel.vertical .active,
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right    { top:0; }
+.carousel.vertical .next,
+.carousel.vertical .active.right  { top:100%; }
+.carousel.vertical .prev,
+.carousel.vertical .active.left   { top:-100%; }
+
+
+	
+	.row-fluid .span2NoGutter { width:16.66667%; margin-left:0 } // 100% / 6 col
+.row-fluid .span4NoGutter { width:25%; margin-left:0 } // 100% / 4 col
+.row-fluid .span3NoGutter { width:33.33333%; margin-left:0 } // 100% / 3 col
+}
